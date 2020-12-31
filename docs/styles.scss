@@ -10,6 +10,12 @@ body {
     margin: 0;
     padding: 0;
 
+    h6 {
+        a {
+            text-decoration: none;
+        }
+    }
+
 }
 
 .brand {
@@ -55,7 +61,7 @@ footer {
 }
 
 .main-hero {
-    margin-top: 12vh;
+    margin-top: 3.2em;
 }
 
 /************************************** SWIPER *******************************************************/
