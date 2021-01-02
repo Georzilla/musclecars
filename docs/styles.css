@@ -99,7 +99,7 @@ footer {
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: 135px;
+  bottom: 95px;
   left: 0;
   width: 100%;
 }
