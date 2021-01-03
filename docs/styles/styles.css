@@ -3,29 +3,42 @@
   padding: 0;
 }
 
-/*** background size cover background position center **/
+/*** NEW MODEL MUSCLE CARS **/
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
   font-size: 14px;
-  color: #000;
+  color: #dddddd;
+  background-color: #181a1d;
 }
 
 body h6 a {
   text-decoration: none;
 }
 
+body a:hover {
+  color: #fff;
+}
+
 .brand {
   font-size: 1.8em;
-  color: #616161 !important;
+  color: #f3eded;
 }
 
 .navbar-nav {
   font-weight: 300;
 }
 
+.navbar-nav a {
+  color: #e4e4e4;
+}
+
+.dropdown-menu {
+  background-color: #020213;
+}
+
 .dropdown-item {
-  color: #555454;
+  color: #e7e5e5;
   font-weight: 300;
   font-size: .85em;
 }
@@ -35,19 +48,21 @@ body h6 a {
 }
 
 .dropdown-item:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 footer {
-  -webkit-box-shadow: 10px 9px 16px #696969;
-          box-shadow: 10px 9px 16px #696969;
+  -webkit-box-shadow: 10px 5px 16px #0f0f0f;
+          box-shadow: 10px 5px 16px #0f0f0f;
   font-weight: 300;
   font-size: .7em;
 }
 
 .social-icon {
   max-height: 24px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .social-icon:hover {
@@ -56,6 +71,7 @@ footer {
 
 .main-hero {
   margin-top: 2.6em;
+  background-color: #181a1d;
 }
 
 /************************************** SWIPER *******************************************************/
@@ -151,14 +167,23 @@ footer {
 }
 
 h6 a {
-  color: #616161;
+  color: #ecebeb;
   margin-top: 5px;
 }
 
 h6 a:hover {
-  color: #1f1f1f;
-  font-size: .99em;
+  color: #c7c7c7;
+  font-size: .999 em;
   text-decoration: none;
+}
+
+.unsplash svg {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.unsplash svg:hover {
+  opacity: .8;
 }
 
 .--caption-icon {
