@@ -28,13 +28,18 @@ body {
 
 .navbar-nav {
     font-weight: 300;
+   
 }
 
 .dropdown-item { 
 
-    color: #616161;
+    color: #555454;
     font-weight: 300;
     font-size: .85em;
+
+    span {
+        font-size: .75em;
+    }
 
     &:hover{
         background-color: #000;
@@ -181,7 +186,7 @@ footer {
       margin-top: 5px;
 
       &:hover {
-          color: #050505;
+          color: #1f1f1f;
           font-size: .99em;
           text-decoration: none;
           
