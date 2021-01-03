@@ -148,21 +148,15 @@ footer {
   font-size: 1em;
 }
 
-.sub .author:hover {
-  font-weight: bold;
-  text-decoration: none;
-  font-size: .99em;
-}
-
 h6 a {
   color: #616161;
+  margin-top: 5px;
 }
 
 h6 a:hover {
-  color: #474747;
+  color: #050505;
   font-size: .99em;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .--caption-icon {
