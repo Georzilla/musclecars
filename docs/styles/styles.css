@@ -108,6 +108,7 @@ footer {
 
 .swiper-slide .img-clip {
   max-height: 85.5vh;
+  min-height: 85.4vh;
 }
 
 @media (min-width: 992px) {
