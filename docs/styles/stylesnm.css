@@ -9,7 +9,7 @@ body {
   height: 100%;
   font-size: 14px;
   color: #dddddd;
-  background-color: #181a1d;
+  background-color: #1a1a1a;
 }
 
 body h6 a {
@@ -71,7 +71,7 @@ footer {
 
 .main-hero {
   margin-top: 2.6em;
-  background-color: #181a1d;
+  background-color: #1a1a1a;
 }
 
 /************************************** SWIPER *******************************************************/
